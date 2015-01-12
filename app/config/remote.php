@@ -34,7 +34,7 @@ return array(
 			'password'  => 'cH@n31',
 			'key'       => '',
 			'keyphrase' => '',
-			'root'      => '/var/www/public_html/channel',
+			'root'      => '/var/www/',
 		),
 
 	),
