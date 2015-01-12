@@ -29,12 +29,12 @@ return array(
 	'connections' => array(
 
 		'production' => array(
-			'host'      => '',
-			'username'  => '',
-			'password'  => '',
+			'host'      => 'http://channel.ithreem.com',
+			'username'  => 'channel@ithreem.com',
+			'password'  => 'cH@n31',
 			'key'       => '',
 			'keyphrase' => '',
-			'root'      => '/var/www',
+			'root'      => '/var/www/public_html/channel',
 		),
 
 	),
