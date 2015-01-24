@@ -1,0 +1,213 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2014-12-7, 19:08:28
+    Author     : Mario
+*/
+
+body{
+    font-family: Verdana;
+    background: #eeeeee;
+    #wrapper{
+        width:940px;
+        margin: 0 auto;
+        #header{
+            margin:10px 0;
+            font-size:12px;
+            font-weight:bold;
+            #contacts{
+                float: right;
+                background: white;
+                width: 722px;
+                height:45px;
+                #phones{
+                    display: inline-block;
+                    width: 100px;
+                    margin-left:  10px;
+                }
+                #live{
+                    float: right;
+                    width: 137px;
+                    height: 44px;
+                    margin-top: 0;
+                    background: #c3181e;
+                    color: white;
+                    text-align: center;
+                    font-size: 20px;
+                    display: table;
+                    border-radius:8px;
+                    div{
+                        display: table-cell;
+                        vertical-align: middle;
+                    }
+                }
+                img,p{
+                    margin-left:  10px;
+                    margin-top: 5px;
+                }
+                p{
+                    position: relative;
+                    bottom: 10px;
+                    display: inline-block;
+                }
+            }
+        }
+        #nav{
+            height: 100px;
+            background: #c3181e;
+            color:white;
+            text-align:center;
+            font-size:18px;
+            height: 104px;
+            margin:10px 0;
+            #time{
+                width: 104px;
+                float:left;
+                margin-right: 20px;
+            }
+            #rigthSide{
+                float:left;
+                width:816px;
+                #tabs{
+                    background: white;
+                    float:left;
+                    color:black;
+                    font-size:20px;
+                    font-weight:bold;
+                    margin-top:2px;
+                    margin-bottom:5px;
+                    height:64px;
+                    width:100%;
+                    .tab{
+                        float: left;
+                        padding: 20px 12px;
+                    }
+                }
+                #current{
+                    clear:both;
+                    float: left;
+                }
+                #search{
+                    float: right;
+                    width: 150px;
+                    height: 24px;
+                    margin-right:5px;
+                    input{
+                        width: 100%;
+                        background-image: url("../images/lens.jpg");
+                        background-repeat: no-repeat;
+                        background-size: 15px 15px;
+                        background-position-y: 2px;
+                        background-position-x: 130px
+                    }
+                }
+            }
+        }
+        #slider1_container{
+            float:left;
+            p{
+                background: #c3181e;
+                color: #eeeeee;
+                position: absolute;
+                bottom: 20px;
+                left: 20px;
+            }
+        }
+        #slider_description{
+            float:left;
+            width: 240px;
+            height:394px;
+            background:#232323; 
+            color:white;
+            ul{
+                :hover{
+                    border-color: #c3181e;
+                    background: #464646;
+                }
+                margin: 0;
+                padding:0;
+                li{
+                    height: 95px;
+                    list-style-type: none;
+                    border-left: #464646 solid 5px;
+                    margin-bottom: 3px;
+                }
+            }
+        }
+        #content{
+            .report{
+                width: 720px;
+                float: left;
+                #likeButton{
+                  width: 100px;  
+                }
+            }
+            .head{
+                width: 700px;
+                height: 37px;
+                background: #c3181e;
+                color:white;
+                margin: 20px 0;
+                float: left;
+
+            }
+            .new{
+                width: 220px;
+                height: 440px;
+                background: grey;
+                float: left;
+                margin-right: 20px;
+                &:first-child{
+                    clear: both;
+                }
+            }
+
+        }
+    }
+    #footer{
+        height: 155px;
+        width: 100%;
+        #footTabs{
+            width: 540px;
+            margin: 0 auto;
+        }
+        .footTab{
+            float:left;
+            font-size:18px;
+            font-weight:bold;
+            margin:10px;
+        }
+        #footContacts{
+            clear: both;
+            width: 350px;
+            margin: 0 auto;
+        }
+        .footContacts{
+            float:left;
+            font-size:16px;
+            color:grey;
+            margin:10px; 
+        }
+        #original{
+            clear: both;
+            width: 350px;
+            margin: 0 auto;
+            font-size:12px;
+            position: relative;
+            top:30px;
+        }
+    }
+}
+.jssorb03 div, .jssorb03 div:hover, .jssorb03 .av
+{
+    background: url(/Projects/slider-master/img/b14.png) no-repeat;
+    overflow:hidden;
+    cursor: pointer;
+}
+.jssorb03 div { background-position: -5px -5px; }
+.jssorb03 div:hover, .jssorb03 .av:hover { background-position: -35px -5px; }
+.jssorb03 .av { background-position: -65px -5px; }
+.jssorb03 .dn, .jssorb03 .dn:hover { background-position: -95px -5px; }
