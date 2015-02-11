@@ -9,7 +9,8 @@ class ArticlesController extends \BaseController {
 	 */
 	public function index()
 	{
-		//
+		//returning the main page with all the possible options for the articles management
+       
 	}
 
 
